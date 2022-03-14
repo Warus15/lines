@@ -1,0 +1,102 @@
+* {
+   margin: 0;
+   padding: 0;
+
+   user-select: none;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+
+   width: 100vw;
+   height: 100vh;
+
+   background: rgb(18, 18, 18);
+
+   color: white;
+}
+
+#previewPointsContainer {
+   width: 35vw;
+   display: flex;
+   flex-direction: row;
+
+   justify-content: space-around;
+   align-items: center;
+}
+
+#preview {
+   display: flex;
+   flex-direction: column;
+
+   justify-content: space-around;
+   align-items: center;
+}
+
+#pointsContainer,
+#timerContainer {
+   display: flex;
+   flex-direction: column;
+
+   justify-content: space-around;
+   align-items: center;
+}
+
+#tilesPreview {
+   display: flex;
+}
+
+.row {
+   display: flex;
+   flex-direction: row;
+}
+
+.tile,
+.currentTile,
+.highlightedTile,
+.pathTile {
+   border: 2px solid rgb(83, 83, 83);
+
+   margin: 0.5px;
+
+   width: 50px;
+   height: 50px;
+
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.tile {
+   background: rgb(33, 33, 33);
+}
+
+.highlightedTile {
+   background: rgb(29, 185, 84);
+}
+
+.pathTile {
+   background: rgb(206, 114, 1);
+}
+
+.currentTile {
+   background: rgb(187, 41, 187);
+}
+
+.orb {
+   width: 30px;
+   height: 30px;
+   border: 2px solid black;
+   border-radius: 50%;
+}
+
+.selectedOrb {
+   width: 40px;
+   height: 40px;
+   border: 3px solid black;
+   border-radius: 50%;
+}
